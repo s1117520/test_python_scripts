@@ -3,6 +3,7 @@ import numpy as np
 data=open('some_data.csv','r')
 more_data=open('some_more_data.csv','r')
 
+#creating function for loading csv files
 def loading_data(data):
 	lines=data.readlines()
 	num_lines=[]
